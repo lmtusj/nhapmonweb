@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #5ba503;
     color: #fff;
     padding: 1rem;
     display: flex;
@@ -26,7 +26,7 @@ header {
 }
 
 footer {
-    background-color: #333;
+    background-color: #5ba503;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -114,7 +114,7 @@ nav ul li a {
 
 
 .add-to-cart {
-    background-color: #4CAF50; 
+    background-color: #28a745; 
     color: white;
     border: none; 
     padding: 0.5rem 1rem; 
@@ -124,9 +124,9 @@ nav ul li a {
 }
 
 .add-to-cart:hover {
-    background-color: #3b833f;
+    background-color: rgb(77, 138, 81);
     font-weight: bold;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .categories {
@@ -145,6 +145,8 @@ nav ul li a {
 .categories li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .user-links {
